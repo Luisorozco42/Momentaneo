@@ -12,7 +12,7 @@ public class poolConexion
 	private static BasicDataSource dataSource;
 	private static String url = "jdbc:mysql://localhost:3306/seguridad?autoReconnect=true&useSSL=false&serverTimezone=UTC";
 	private static String user = "root";
-	private static String pass="Lu!s1234";
+	private static String pass="Egonzalez87";
 
     //Constructor
 	private poolConexion(){
@@ -100,7 +100,7 @@ public class poolConexion
 
 	public static void main(String[] args) throws SQLException {
 		// TODO Auto-generated method stub
-
+		/*
 			poolConexion.getInstance();
 			Connection con = null;
 	        
@@ -125,6 +125,7 @@ public class poolConexion
 	                System.out.println(ex.getMessage());
 	            }
 	        }
+		*/
 	}
 
 }
